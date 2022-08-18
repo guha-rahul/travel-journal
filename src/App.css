@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
-}
+/* The Css for navbar starts here*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Navbar{
   display: flex;
-  flex-direction: column;
+  background-color: #F55A5A;
   align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.title{
   color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav--logo{
+  padding: 5px; 
 }
 
-.App-link {
-  color: #61dafb;
+/* The Css for navbar ends here*/
+
+/* The Css for Cards starts here*/
+
+.card{
+  display: flex;
+  font-size: 15px;
+  margin: 7% 5% 5% 5%;
+  align-items: center;
+  width: 80%;
+  
+}
+.card-demographics{
+  display: flex;
+  justify-content: left;
+  padding-top: 10px;
+  align-items: center;
+  border: black;
+  border-style: solid;
+  padding-left: 5%;
+
+}
+.card-image{
+  border-radius: 5px;
+  height: 100% ;
+  padding-left: 20px;
+  border: red;
+  border-style: solid;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-info{
+  padding-left: 10px;
+  padding-bottom: 20px;
+  border: black;
+  border-style: solid;
+  align-items: center;
+  max-width: 70%;
+
+}
+.map-location{
+  text-decoration: underline;
+}
+
+.card-header{
+  gap: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: black;
+  border-style: solid;
+  margin: 0px;
+}
+
+.card-location{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-contents{
+  border: black;
+  border-style: solid;
+  
+}
+.card-date{
+  border: black;
+  border-style: solid;
+  
 }
