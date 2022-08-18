@@ -17,9 +17,8 @@ function App() {
 
   return (
     <div> 
-      <section className='card-list'>
-        {cards}        
-      </section>   
+      <Navbar />
+      {cards}  
     </div>
       );
 }
