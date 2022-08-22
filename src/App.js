@@ -7,10 +7,10 @@ import data from "./data/data.js"
 
 function App() {
 
-  const cards = data.map(item => {
+  const cards = data.map(DATA => {
     return(
       <Cards 
-        item = {item}    
+        item = {DATA}    
       />
     )
   })
